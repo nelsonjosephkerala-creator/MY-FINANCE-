@@ -1,0 +1,7 @@
+{
+  "appId": "com.nelson.finance",
+  "appName": "Nelson Finance",
+  "webDir": "www",
+  "backgroundColor": "#F4F6FB",
+  "android": { "allowMixedContent": false }
+}

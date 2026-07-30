@@ -1,0 +1,19 @@
+{
+  "name": "nelson-finance",
+  "version": "1.0.0",
+  "description": "Nelson-Finance — offline personal finance (OMR & INR)",
+  "private": true,
+  "scripts": {
+    "sync": "cap sync android",
+    "icons": "capacitor-assets generate --android --iconBackgroundColor '#4338CA' --splashBackgroundColor '#F4F6FB'",
+    "open": "cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.0",
+    "@capacitor/core": "^6.1.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^6.1.0"
+  }
+}
